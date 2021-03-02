@@ -5,16 +5,17 @@ import socket
 import random
 #Code Time
 from datetime import datetime
-now = datetime.now()
-hour = now.hour
-minute = now.minute
-day = now.day
-month = now.month
-year = now.year
+now = 02.03
+hour = 20
+minute = 30
+day = 02
+month = 3
+year = 2021
+
 
 ##############
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-bytes = random._urandom(1490)
+bytes = 10273
 #############
 
 os.system("clear")
